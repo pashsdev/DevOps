@@ -16,7 +16,7 @@ namespace DevOpsTest
         public void AddTest(Int64 a, Int64 b,Int64 expectedResult)
         {
             Calculator calc = new Calculator();
-            string
+            string a
             Int64 result = calc.Add(a, b);
             Assert.AreEqual(expectedResult, result);
         }
