@@ -12,7 +12,7 @@ namespace DevOpsTest
     public class Whitelist
     {
         [TestCase(1,2,3)]
-        //[TestCase(3,2,4)]
+        [TestCase(3, 2, 4)]
         public void AddTest(Int64 a, Int64 b,Int64 expectedResult)
         {
             Calculator calc = new Calculator();
